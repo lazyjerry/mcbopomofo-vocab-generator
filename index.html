@@ -38,7 +38,9 @@
         // 使用 pinyinUtil 來生成注音（請依據實際庫調整此處函數名稱）
         const zhuyin = pinyinUtil.getPinyin(chineseText);
         // 將 zhuyin 中的空白字元替換為 "-" 
-        const formattedZhuyin = zhuyin.replace(/\s+/g, '-');
+        let formattedZhuyin = zhuyin.replace(/\s+/g, '-');
+        formattedZhuyin = formattedZhuyin.replace(/ˉ/g, '');
+
         document.getElementById('phonetics').value = formattedZhuyin;
       }
     });
