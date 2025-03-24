@@ -48,6 +48,10 @@ https://mcbopomofo.openvanilla.org/
 	•	小麥輸入法自訂詞彙使用手冊
 https://github.com/openvanilla/McBopomofo/wiki/使用手冊#手動加詞
 
+Demo
+
+線上 Demo 網頁: https://mcbopomofo-vocab-generator.pages.dev/
+
 License
 
 本專案採用 MIT 授權，歡迎參考與修改。
