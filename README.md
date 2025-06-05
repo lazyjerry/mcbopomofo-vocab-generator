@@ -19,14 +19,15 @@
    ```bash
    git clone https://github.com/yourusername/mcbopomofo-vocab-generator.git
    cd mcbopomofo-vocab-generator
+	```
 
-	2.	檢查依賴
-	•	請確認已下載或引入 zhuyin87 套件。
-	•	此專案同時需要 pinyinUtil.js、zhuyinUtil.js 以及相關的字典檔（pinyin_dict_notone.js 與 pinyin_dict_withtone.js），請確保這些檔案位於正確的路徑下（例如：./dict/）。
-	3.	運行專案
-	•	直接在瀏覽器中開啟 index.html（或專案中相應的 HTML 檔案），即可使用此詞語產生器。
+2. 檢查依賴
+- 請確認已下載或引入 zhuyin87 套件。
+- 此專案同時需要 pinyinUtil.js、zhuyinUtil.js 以及相關的字典檔（pinyin_dict_notone.js 與 pinyin_dict_withtone.js），請確保這些檔案位於正確的路徑下（例如：./dict/）。
+3. 運行專案
+- 直接在瀏覽器中開啟 index.html（或專案中相應的 HTML 檔案），即可使用此詞語產生器。
 
-文件格式
+## 文件格式
 
 生成的詞語格式符合小麥輸入法自訂詞彙檔案的要求，每筆詞語的格式如下：
 
@@ -38,24 +39,24 @@
 
 將生成的結果直接複製並貼入小麥輸入法的自訂詞彙資料檔中即可。
 
-參考與相關資源
-	•	zhuyin87
+## 參考與相關資源
+- zhuyin87
 https://github.com/signxer/zhuyin87/tree/master
 使用此套件進行中文轉注音並進行格式化處理。
-	•	小麥注音官網
+- 小麥注音官網
 https://mcbopomofo.openvanilla.org/
 官方網站提供小麥輸入法相關資訊與下載。
-	•	小麥輸入法自訂詞彙使用手冊
+- 小麥輸入法自訂詞彙使用手冊
 https://github.com/openvanilla/McBopomofo/wiki/使用手冊#手動加詞
 
-Demo
+## Demo
 
 線上 Demo 網頁: https://mcbopomofo-vocab-generator.pages.dev/
 
-License
+## License
 
 本專案採用 MIT 授權，歡迎參考與修改。
 
-Contributing
+## Contributing
 
 如果你對此工具有任何疑問或建議，歡迎提交 Issue 或 Pull Request，一起讓這個詞語產生器變得更好！
